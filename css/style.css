@@ -13,7 +13,16 @@ h1 {
     margin: 5rem;
     
 }
-
+h1 {
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0%{ opacity: 0;}
+  50% {opacity: 0.5;}
+  100% { opacity: 1; }
+}
 h1, h4, h2{
     transition: 1s;
 }
@@ -350,17 +359,6 @@ ul, li, a {
   grid-auto-flow: row;
   grid-area: talles-blusas;
   
-}
-.talles-blusas:hover{
-  animation: varios 5s;
-}
-@keyframes varios{
- 0%{background-color: aliceblue;}
-  50%{background-color: bisque;}
-  
-  100%{ background-color: white;
-
-  }
 }
 
 /*.container-products ul li a{
