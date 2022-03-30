@@ -11,8 +11,18 @@ footer ul li {
   align-content: center;
 }
 
+.footer-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   background-color: blanchedalmond;
+}
+
+.footer-index {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

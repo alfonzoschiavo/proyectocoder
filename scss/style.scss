@@ -1,6 +1,13 @@
 @import "../components/footer";
 @import "../base/variables";
+@import "../base/extends";
+@import "../base/maps";
 
 header{
     background-color: $bcolor;
+}
+
+.footer-index{
+    background-color: white;
+    @extend %disposicion;
 }
