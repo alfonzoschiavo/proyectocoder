@@ -2,12 +2,11 @@
 @import "../base/variables";
 @import "../base/extends";
 @import "../base/maps";
+@import "../base/mixin";
 
-header{
-    background-color: $bcolor;
-}
 
-.footer-index{
+
+.container-footer{
     background-color: white;
     @extend %disposicion;
 }

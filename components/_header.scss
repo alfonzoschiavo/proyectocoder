@@ -1,0 +1,4 @@
+@import "../base/maps";
+ header{
+     background-color: map-get($header, bg-header );
+ }

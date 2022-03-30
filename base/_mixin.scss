@@ -1,0 +1,11 @@
+@mixin colores($color, $ancho, $borde) {
+    background-color: $color;
+    width: $ancho;
+    padding: $borde;
+}
+
+@mixin tamaños ($margen, $fonta, $alinea){
+    margin: $margen;
+    font-family: $fonta;
+    text-align: $alinea;
+}

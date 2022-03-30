@@ -11,17 +11,13 @@ footer ul li {
   align-content: center;
 }
 
-.footer-index {
+.container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header {
-  background-color: blanchedalmond;
-}
-
-.footer-index {
+.container-footer {
   background-color: white;
 }
 
